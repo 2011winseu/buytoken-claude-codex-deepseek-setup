@@ -1,6 +1,8 @@
-# Claude Code 接入 BuyToken
+# Claude Code 换 Base URL 接入 BuyToken
 
-适用于 Claude Code 终端版，以及 VSCode / Cursor / Trae 里的 Claude Code 插件。两条路任选：CC Switch 图形化配置，或者直接配环境变量。
+把 Claude Code 的 Base URL 改成 BuyToken，继续用原来的 `claude` 命令。终端版，以及 VSCode、Cursor、Trae 里的 Claude Code 插件都适用。两条路任选：CC Switch 图形化配置，或者直接配 `ANTHROPIC_BASE_URL`。
+
+还没有 Key 的话，到 [buytoken.work](https://buytoken.work) 注册，标准注册送 1 元体验金，验证后就能创建 Key。
 
 ## 开始之前
 

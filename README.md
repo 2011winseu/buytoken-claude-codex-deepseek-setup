@@ -1,8 +1,8 @@
-# Claude Code / Codex / Cursor 接入 BuyToken 配置指南
+# Claude Code、Codex、Cursor、DeepSeek 接入 BuyToken
 
-改一行 Base URL，让你手上的 Claude Code、Codex、Cursor 直接调用 Claude 与 GPT 官方级模型。人民币按 token 用量结算，额度不过期，每一次调用都能在控制台查到。
+BuyToken 是 Claude、GPT、DeepSeek 的 API 中转。Claude Code、Codex、Cursor 不用换客户端，只改 Base URL 和 API Key。人民币按 token 用量结算，额度不过期，每一次调用都能在控制台查到。
 
-**标准注册送 1 元体验金。** 到 [buytoken.work](https://buytoken.work) 用邮箱注册，验证后立即到账，不用先充值，全站模型都能拿这 1 元试。登录后在控制台创建 Key，再按下面的步骤填进客户端。
+**标准注册送 1 元体验金。** 到 [buytoken.work](https://buytoken.work) 用邮箱注册，验证后立即到账，不用先充值，Claude、GPT、DeepSeek 都能拿这 1 元试。登录后创建 Key，再按下面的步骤填进客户端。
 
 这个仓库只放文档：怎么配、配错了怎么查。
 
@@ -19,9 +19,10 @@
 
 | 客户端 | 文档 | 协议 | 地址写法 |
 |---|---|---|---|
-| Claude Code（终端 / VSCode 插件） | [docs/claude-code.md](docs/claude-code.md) | Anthropic | `https://api.buytoken.work` |
-| Codex CLI / Codex Desktop | [docs/codex.md](docs/codex.md) | OpenAI | `https://api.buytoken.work/v1` |
-| Cursor | [docs/cursor.md](docs/cursor.md) | OpenAI / Anthropic | 见文档 |
+| Claude Code 换 Base URL | [docs/claude-code.md](docs/claude-code.md) | Anthropic | `https://api.buytoken.work` |
+| Codex config.toml | [docs/codex.md](docs/codex.md) | OpenAI | `https://api.buytoken.work/v1` |
+| Cursor Override Base URL | [docs/cursor.md](docs/cursor.md) | OpenAI / Anthropic | 见文档 |
+| DeepSeek API | [docs/deepseek.md](docs/deepseek.md) | OpenAI | `https://api.buytoken.work/v1` |
 | curl、OpenAI SDK、Anthropic SDK | [docs/sdk.md](docs/sdk.md) | 三种都支持 | 见文档 |
 
 配完不通，先看 [常见报错排查](docs/troubleshooting.md)。能调哪些模型、模型 ID 怎么写，见 [模型列表](docs/models.md)。

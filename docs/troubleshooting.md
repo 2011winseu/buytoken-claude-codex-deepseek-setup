@@ -1,8 +1,8 @@
-# 常见报错排查
+# Claude Code、Codex、Cursor 常见报错
 
-按报错原文找到对应小节。每节都是：现象 → 原因 → 改哪里。
+Claude Code 出现 `401 Unauthorized`，Codex 的 `config.toml` 不生效，或者 Cursor 的 Override OpenAI Base URL 验证失败，按报错原文找对应小节。每节都是：现象、原因、改哪里。
 
-大部分问题最后都归到一句：**别处还留着旧配置**。删掉 `~/.claude`（Claude Code）或检查 `~/.codex/config.toml`（Codex），重开终端，按文档重配一遍。
+大部分问题最后都归到一句：**别处还留着旧配置**。删掉 `~/.claude`（Claude Code）或检查 `~/.codex/config.toml`（Codex），重开终端，按文档重配一遍。Base URL 分别是 `https://api.buytoken.work`（Claude Code）和 `https://api.buytoken.work/v1`（Codex、Cursor、DeepSeek）。
 
 ## 401 Unauthorized
 

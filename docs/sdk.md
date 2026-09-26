@@ -1,6 +1,8 @@
-# curl / SDK 直接调用
+# OpenAI / Anthropic API：把 Base URL 换成 BuyToken
 
-网关同时开放三条接口，密钥用 `x-api-key` 或 `Authorization: Bearer` 传都行：
+用 curl、OpenAI SDK 或 Anthropic SDK 调 BuyToken。把官方 Base URL 换成 `https://api.buytoken.work`，Key 用控制台里的 `sk-`。Claude Code、Codex、Cursor、DeepSeek 客户端走的也是这三条接口。
+
+密钥用 `x-api-key` 或 `Authorization: Bearer` 传都行：
 
 | 路径 | 协议 | 典型客户端 |
 |---|---|---|

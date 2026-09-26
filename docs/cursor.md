@@ -1,9 +1,8 @@
-# Cursor 接入 BuyToken
+# Cursor 自定义 OpenAI Base URL 接入 BuyToken
 
-Cursor 有两条路：
+在 Cursor 里打开 Override OpenAI Base URL，填 `https://api.buytoken.work/v1`，就能用 BuyToken 的 GPT 模型。要在 Cursor 里用 Claude，另装 Claude Code 插件，改 `ANTHROPIC_BASE_URL`。两条路可以同时开。
 
-1. **Cursor 自带的模型设置**：走 OpenAI 协议，调 GPT 系列。
-2. **Claude Code 插件**：在 Cursor 里装「Claude Code for VSCode」，走 Anthropic 协议，调 Claude 系列。
+还没有 Key 的话，到 [buytoken.work](https://buytoken.work) 注册，标准注册送 1 元体验金。
 
 两条路可以同时用。
 

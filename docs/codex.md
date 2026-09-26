@@ -1,6 +1,8 @@
-# Codex CLI / Codex Desktop 接入 BuyToken
+# Codex 中转配置：config.toml 与 Base URL
 
-要调 `gpt-5.6-sol`、`gpt-6-astra` 这类 GPT 模型看这里。Codex 走 OpenAI 协议，**地址必须带 `/v1`**。
+Codex CLI 和 Codex Desktop 接入 BuyToken，用来调 `gpt-5.6-sol`、`gpt-6-astra`。Codex 走 OpenAI 协议，**Base URL 必须写成 `https://api.buytoken.work/v1`**。配置落在 `~/.codex/config.toml`，CLI 和桌面端共用这一份。
+
+还没有 Key 的话，到 [buytoken.work](https://buytoken.work) 注册，标准注册送 1 元体验金。要用 Codex 分组的 Key，Claude 分组的 Key 调不了 GPT。
 
 ## 开始之前
 

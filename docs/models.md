@@ -1,6 +1,6 @@
-# 模型列表与分组
+# BuyToken 模型 ID：Claude、GPT、DeepSeek、Kimi、GLM
 
-能调哪些模型取决于你这把 **Key 的分组**，不是账号。一个账号会同时拿到多个分组的 Key，共用同一个额度池。到控制台 [我的 Key](https://buytoken.work/console/keys) 看每把 Key 属于哪个分组。
+BuyToken 上能调哪些模型，取决于这把 **Key 的分组**，不是账号。一个账号会同时拿到 Claude、Codex、DeepSeek 等分组的 Key，共用同一个额度池。到控制台 [我的 Key](https://buytoken.work/console/keys) 看每把 Key 属于哪个分组。
 
 模型 ID 要**原样填**，带日期后缀的不能省。价格以 [模型定价页](https://buytoken.work/pricing) 为准，本页不列价格。
 
