@@ -1,0 +1,7 @@
+{
+  "claudeCode.preferredLocation": "panel",
+  "claudeCode.environmentVariables": [
+    { "name": "ANTHROPIC_BASE_URL", "value": "https://api.buytoken.work" },
+    { "name": "ANTHROPIC_AUTH_TOKEN", "value": "sk-你的Key" }
+  ]
+}
