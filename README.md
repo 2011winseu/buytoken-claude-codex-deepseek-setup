@@ -2,7 +2,9 @@
 
 改一行 Base URL，让你手上的 Claude Code、Codex、Cursor 直接调用 Claude 与 GPT 官方级模型。人民币按 token 用量结算，额度不过期，每一次调用都能在控制台查到。
 
-这个仓库只放文档：怎么配、配错了怎么查。注册和拿 Key 在 [buytoken.work](https://buytoken.work)。
+**标准注册送 1 元体验金。** 到 [buytoken.work](https://buytoken.work) 用邮箱注册，验证后立即到账，不用先充值，全站模型都能拿这 1 元试。登录后在控制台创建 Key，再按下面的步骤填进客户端。
+
+这个仓库只放文档：怎么配、配错了怎么查。
 
 ## 你需要的两样东西
 
@@ -40,6 +42,7 @@
 
 ## 关于 BuyToken
 
+- 标准注册送 1 元体验金，邮箱验证后立即到账，可用于全站任意模型
 - 一个账号同时拿到 Claude 分组和 Codex 分组的 Key，共用一个额度池
 - 网关同时支持 `/v1/messages`、`/v1/responses`、`/v1/chat/completions`
 - 缓存命中按各模型自己的比例计价；额度不过期、不清零
